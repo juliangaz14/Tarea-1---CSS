@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+/*Estilo de los botones*/
+.button {
+  color: black;
+  float: right;
+  padding: 10px;
+  text-decoration: none;
+  border: solid;
+  border-color: #333;
+  background-color: lightblue;
+  /* Efecto cuando el cursor pasa encima de los botones de acceso*/
+}
+.button:hover {
+  background-color: rgb(0, 153, 255);
+}
+/*Posición, espacio y estilo del nav*/
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.733);
+  color: whitesmoke;
+}
+/*Saqué el underline*/
+nav a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+/*Efecto cuando deslizas el cursor por encima del nav*/
+nav a:hover {
+  background-color: black;
+}
+/*Fondo y posicion del footer*/
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(96, 116, 122);
+    border: solid;
+    border-color: #333;
+  }
+/*Es para que los datos aparezcan en forma horizontal*/
+li {
+  display: inline;
+  flex-direction: row;
+  padding: 30px;
+}
+/*Posicion de los iconos de las redes*/
+.social-icons {
+  float: right;
+  margin-right: 25px;
+  margin: 10px;
+}

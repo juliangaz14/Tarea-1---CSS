@@ -1,0 +1,75 @@
+  /*Para que cuando selecciones el enlace, se desplace de forma gradual*/
+  html {
+    scroll-behavior: smooth;
+  }
+  /*Estilo para el fondo de la page*/
+  body {
+    background: linear-gradient(
+        rgba(200, 200, 200, 0.3),
+        rgba(200, 200, 200, 0.3)
+      ),
+      url(../Assets/Images/Background/fondo\ 3.jpg);
+    background-size: cover;
+    color: #333;
+  }
+  /*Estilo para el texto de la page*/
+  body {
+    background-color: white;
+    color: black;
+  }
+  /*Estilo para el título principal*/
+  h1 {
+    text-align: center;
+    background-color: rgb(96, 96, 122);
+    color: whitesmoke;
+  }
+  /*Color y ancho del fondo de los h2*/ 
+  h2 {
+    background-color: #e67e22;
+    padding: 20px;
+  }
+  /*Ubicación del texto a un lado de la imagen*/
+  .text-container {
+    display: flex;
+    justify-content: center;
+  }
+  /*Estilo de la imágen*/
+  .imagen {
+    border: chocolate;
+    border-radius: 25px;
+  }
+  /*Cambio de fuente del pie de imagen*/
+  figcaption {
+    font-style: italic;
+    text-align: center;
+  }
+  /*Ubicacion y alineación de la tabla debajo de la imágen*/
+  .Info-Personal {
+    text-decoration: underline;
+    float: right;
+    text-align: center;
+    margin-right: 18px;
+    border: black;
+  }
+  /*Estilo para el encabezado del resumen*/
+  th {
+    background-color: saddlebrown;
+    padding: 10px;
+    color: black;
+    border: solid;
+    border-radius: 25px;
+    border-color: black;
+  }
+  /*Estilo y fondo de la tabla*/
+  .Info-Personal {
+    background-color: lightslategray;
+    border: solid;
+    border-radius: 25px;
+    border-color: black;
+  }
+  /*Separacion entre el video y el mapa*/
+  .map-dead {
+    margin: 15px;
+  }
+  
+  

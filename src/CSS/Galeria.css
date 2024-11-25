@@ -1,0 +1,38 @@
+/*HEAD*/
+/*Centrado del título principal*/
+h1 {
+  text-align: center;
+  font-style: normal;
+  color: black;
+}
+/*BODY*/
+/*Es para darle al fondo un efecto de transparencia*/ /*Los 3 "255" indican los colores primarios y el "0.7" opacidad o transparencia.*/
+body {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url(../Assets/Images/Background/fondo\ animado.webp);
+  background-size: cover;
+  color: darkgray;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+/*Efecto en forma de cuadrícula y para que se autocompleten los espacios vacios*/
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 30px;
+}
+/*Darle transicion a las imágenes. Los 500ms le dan una transicion o amplitud de la img mas lenta*/
+.gallery img {
+  width: 100%;
+  transition: all 500ms;
+}
+/*El "hover" sirve para darle efectos visuales, en este caso, a nuestras imagenes. La escala nos indica que las imagenes se van a agrandar 1.15 */
+.gallery img:hover {
+  transform: scale(1.15);
+}
+
